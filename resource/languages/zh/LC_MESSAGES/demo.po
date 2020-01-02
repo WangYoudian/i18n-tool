@@ -1,0 +1,584 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-27 17:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: demo.py:3
+msgid "MONGODB错误"
+msgstr "Mongo error"
+
+#: demo.py:4
+msgid "上传档案过大"
+msgstr "Upload file too large"
+
+#: demo.py:5
+#, python-format
+msgid "找不到父节点id为[%s]的节点，无法创建子节点"
+msgstr "Cannot find node with parent id [%s], cannot create child node"
+
+#: demo.py:6
+msgid "参数值或格式错误"
+msgstr "Parameter value or format error"
+
+#: demo.py:7
+msgid "不可变更超级管理员的用户状态"
+msgstr "User status of super administrator cannot be changed"
+
+#: demo.py:8
+msgid "没有相应的设备"
+msgstr "No corresponding equipment"
+
+#: demo.py:9
+#, python-format
+msgid "没有查询到节点id为[%s]的位置信息"
+msgstr "No location information with node id [%s] was found"
+
+#: demo.py:10
+msgid "请提供必须的tree_id和tree_type和node_list参数"
+msgstr "Please provide the required tree_id and tree_type and node_list parameters"
+
+#: demo.py:11
+msgid "仅超级管理员可修改用户群组"
+msgstr "Only super administrator can modify user groups"
+
+#: demo.py:12
+msgid "锁定树异常，请稍后尝试"
+msgstr "Lock tree exception, please try later"
+
+#: demo.py:13
+msgid "更新驱动失败"
+msgstr "Update driver failed"
+
+#: demo.py:14
+#, python-format
+msgid "重置树[%s]失败"
+msgstr "Reset tree [%s] failed"
+
+#: demo.py:15
+msgid "发布地理纬度异常"
+msgstr "Publishing geographic latitude anomalies"
+
+#: demo.py:16
+msgid "数据名称格式错误"
+msgstr "Data name format error"
+
+#: demo.py:17
+msgid "输入的节点名字不符合规范"
+msgstr "Entered node name not conforming to specification"
+
+#: demo.py:18
+msgid "物模型名称重复"
+msgstr "Object model name repetition"
+
+#: demo.py:19
+#, python-format
+msgid "没有获取到节点为[%s]的信息"
+msgstr "No information with node [%s] obtained"
+
+#: demo.py:20
+msgid "没有找到对应设备"
+msgstr "No corresponding device found"
+
+#: demo.py:21
+msgid "不可频繁提交请求"
+msgstr "Do not submit requests frequently"
+
+#: demo.py:22
+msgid "请输入tree_id和tree_type"
+msgstr "Please enter tree_id and tree_type"
+
+#: demo.py:23
+msgid "数据属性不能超过"
+msgstr "Data attribute cannot exceed"
+
+#: demo.py:24
+msgid "非加强版不可定义物模型"
+msgstr "Unreinforced version of the undefinable object model"
+
+#: demo.py:25
+msgid "token鉴权系统错误"
+msgstr "Token authentication system error"
+
+#: demo.py:26
+msgid "获取树草稿异常，请稍后尝试"
+msgstr "Get tree draft exception, please try later"
+
+#: demo.py:27
+msgid "设备名已重复"
+msgstr "Device name repeated"
+
+#: demo.py:28
+#, python-format
+msgid "输入的操作系统[%s]不存在"
+msgstr "Input operating system [%s] does not exist"
+
+#: demo.py:29
+msgid "请输入正确的tree_id,tree_type和node_id和要变更的节点id"
+msgstr "Please enter the correct tree_id,tree_type and node_id and the node id to be changed"
+
+#: demo.py:30
+msgid "请输入正确的tree_id和tree_type和node_id"
+msgstr "Please enter the correct tree_id and tree_type and node_id"
+
+#: demo.py:31
+msgid "物模型不存在"
+msgstr "The object model does not exist"
+
+#: demo.py:32
+msgid "请上传excel文档"
+msgstr "Please upload the excel document"
+
+#: demo.py:33
+msgid "仅超级管理员可访问用户申请记录"
+msgstr "Only super administrator has access to user application records"
+
+#: demo.py:34
+#, python-format
+msgid "审批异常，user_id为:[%s]"
+msgstr "Approval exception, user_id :[%s]"
+
+#: demo.py:35
+msgid "系统繁忙"
+msgstr "System busy"
+
+#: demo.py:36
+msgid "您无权限查看"
+msgstr "You do not have permission to view"
+
+#: demo.py:37
+msgid "重复申请"
+msgstr "Repeat application"
+
+#: demo.py:38
+msgid "请完善产品模型后再注册设备"
+msgstr "Please complete the product model before registering the equipment"
+
+#: demo.py:39
+#, python-format
+msgid "输入的新的父节点[%s]不存在"
+msgstr "Input new parent node [%s] does not exist"
+
+#: demo.py:40
+msgid "重复处理"
+msgstr "Repeated processing"
+
+#: demo.py:41
+msgid "调用内部API错误"
+msgstr "Error calling internal API"
+
+#: demo.py:42
+msgid "维护中，不可进行操作"
+msgstr "Maintenance, not operational"
+
+#: demo.py:43
+msgid "该设备模板已下架，无法导入"
+msgstr "The device template has been removed and cannot be imported"
+
+#: demo.py:44
+msgid "无可注册数据项或无'device_name','position_id'栏位标题"
+msgstr "No registered data entry or 'device_name','position_id' field title"
+
+#: demo.py:45
+msgid "请输入正确的驱动状态"
+msgstr "Please enter the correct driver status"
+
+#: demo.py:46
+msgid "数据库错误"
+msgstr "Database error"
+
+#: demo.py:47
+msgid "设备不存在"
+msgstr "The device does not exist"
+
+#: demo.py:48
+#, python-format
+msgid "输入的驱动类型[%s]不存在"
+msgstr "Input driver type [%s] does not exist"
+
+#: demo.py:49
+#, python-format
+msgid "没有查出['%s']的相关信息"
+msgstr "No information about ['%s'] has been found"
+
+#: demo.py:50
+msgid "属性讯息重复"
+msgstr "Attribute message repeat"
+
+#: demo.py:51
+msgid "设备类型ID无效"
+msgstr "Invalid device type ID"
+
+#: demo.py:52
+msgid "尚未上传图片"
+msgstr "Picture not yet uploaded"
+
+#: demo.py:53
+msgid "输入的驱动名字和版本号已经存在"
+msgstr "Entered driver name and version number already exist"
+
+#: demo.py:54
+msgid "请输入节点id"
+msgstr "Please enter the node id"
+
+#: demo.py:55
+msgid "此设备不存在"
+msgstr "This device does not exist"
+
+#: demo.py:56
+msgid "此设备不支持此功能"
+msgstr "This device does not support this feature"
+
+#: demo.py:57
+msgid "设置驱动状态失败!"
+msgstr "Failed to set driver status!"
+
+#: demo.py:58
+msgid "REDIS错误"
+msgstr "REDIS error"
+
+#: demo.py:59
+msgid "权限不足"
+msgstr "Insufficient access"
+
+#: demo.py:60
+msgid "请传入改后的管理员id"
+msgstr "Please pass in the changed administrator id"
+
+#: demo.py:61
+msgid "下载驱动包失败"
+msgstr "Download driver package failed"
+
+#: demo.py:62
+msgid "请输入tree_type和tree_id参数"
+msgstr "Please enter tree_type and tree_id parameters"
+
+#: demo.py:63
+msgid "批量文档列数错误"
+msgstr "Batch document column number error"
+
+#: demo.py:64
+msgid "请输入正确的新的父节点id"
+msgstr "Please enter the correct new parent id"
+
+#: demo.py:65
+msgid "查无该用户资讯"
+msgstr "Find no such user information"
+
+#: demo.py:66
+msgid "设备类型不存在"
+msgstr "Device type does not exist"
+
+#: demo.py:67
+#, python-format
+msgid "输入的指令集合[%s]不存在"
+msgstr "Input instruction set [%s] does not exist"
+
+#: demo.py:68
+msgid "物模型标识符重复"
+msgstr "Object model identifier repeat"
+
+#: demo.py:69
+msgid "请按照'device_name','position_id'的先后顺序批量填写注册数据"
+msgstr "Please fill in the registration data in batches in the order of 'device_name','position_id'."
+
+#: demo.py:70
+msgid "数据名称命名格式错误"
+msgstr "Data name naming format error"
+
+#: demo.py:71
+#, python-format
+msgid "最多可以创建[%s]层节点，不能再创建节点了"
+msgstr "You can create up to [%s] layer nodes, you can't create nodes anymore."
+
+#: demo.py:72
+msgid "设备名称重复"
+msgstr "Device name repeat"
+
+#: demo.py:73
+msgid "解除树锁定失败"
+msgstr "Failed to unlock tree"
+
+#: demo.py:74
+msgid "请传入用户id"
+msgstr "Please pass in the user id"
+
+#: demo.py:75
+msgid "服务内部错误"
+msgstr "Internal service error"
+
+#: demo.py:76
+msgid "请输入tree_id或者tree_type或者提供正确的节点列表"
+msgstr "Please enter tree_id or tree_type or provide the correct node list."
+
+#: demo.py:77
+msgid "非设备所有者不可撤销授权"
+msgstr "Non-device owner irrevocable authorization"
+
+#: demo.py:78
+msgid "不支持把父节点绑定到它的子节点上面"
+msgstr "Binding a parent node to its children is not supported."
+
+#: demo.py:79
+msgid "无法获取到企业管理员信息"
+msgstr "Unable to obtain enterprise administrator information"
+
+#: demo.py:80
+msgid "不支持此方法"
+msgstr "This method is not supported"
+
+#: demo.py:81
+#, python-format
+msgid "输入的节点[%s]不存在"
+msgstr "Input node [%s] does not exist"
+
+#: demo.py:82
+#, python-format
+msgid "输入的驱动[%s]不存在"
+msgstr "Input driver [%s] does not exist"
+
+#: demo.py:83
+msgid "角色名称重复"
+msgstr "Role name repeat"
+
+#: demo.py:84
+msgid "仅超级管理员可设置用户状态"
+msgstr "User status can be set only by super administrator"
+
+#: demo.py:85
+msgid "请输入正确的tree_id和node_id或者tree_type"
+msgstr "Please enter the correct tree_id and node_id or tree_type."
+
+#: demo.py:86
+msgid "上传驱动包失败"
+msgstr "Upload driver package failed"
+
+#: demo.py:87
+msgid "已有权限,无需再申请"
+msgstr "Already authorized, no need to apply"
+
+#: demo.py:88
+msgid "设备影子不存在"
+msgstr "Device shadow does not exist"
+
+#: demo.py:89
+msgid "档案已存在"
+msgstr "The file exists"
+
+#: demo.py:90
+msgid "添加设备到proxy失败"
+msgstr "Add device to proxy failed"
+
+#: demo.py:91
+msgid "物模型参数错误"
+msgstr "Object model parameter error"
+
+#: demo.py:92
+msgid "没有获取到上传的驱动包"
+msgstr "Did not get the driver package to upload"
+
+#: demo.py:93
+msgid "设备类型名已重复"
+msgstr "Device type name repeated"
+
+#: demo.py:94
+msgid "该设备类型已下架，无法导入"
+msgstr "This device type has been removed from shelves and cannot be imported"
+
+#: demo.py:95
+msgid "锁定树失败"
+msgstr "Failed to lock tree"
+
+#: demo.py:96
+msgid "时间参数格式异常"
+msgstr "Time parameter format exception"
+
+#: demo.py:97
+msgid "要绑定的新的父节点和该节点一样，无需变更"
+msgstr "The new parent node to bind to is the same as this node without any changes."
+
+#: demo.py:98
+#, python-format
+msgid "输入的硬件[%s]不存在"
+msgstr "Input hardware [%s] does not exist"
+
+#: demo.py:99
+msgid "请输入正确的节点id"
+msgstr "Please enter the correct node id"
+
+#: demo.py:100
+#, python-format
+msgid "新建树的时候，father_id必须是0,不应该是[%s]"
+msgstr "The father_id must be 0, not [%s]."
+
+#: demo.py:101
+msgid "参数json序列化错误"
+msgstr "Parameter json serialization error"
+
+#: demo.py:102
+msgid "不可重复撤销"
+msgstr "Unrepeatable undo"
+
+#: demo.py:103
+msgid "没有查到树的锁信息，请联系管理员查看数据库"
+msgstr "No tree lock information found, please contact the administrator to view the database"
+
+#: demo.py:104
+msgid "设备影子版本错误"
+msgstr "Device shadow version error"
+
+#: demo.py:105
+msgid "请输入正确的tree_type参数"
+msgstr "Please enter the correct tree_type parameter"
+
+#: demo.py:106
+msgid "数据名称重复"
+msgstr "Data name repetition"
+
+#: demo.py:107
+#, python-format
+msgid "输入的开发语言[%s]不存在"
+msgstr "Input development language [%s] does not exist"
+
+#: demo.py:108
+msgid "非法的设备"
+msgstr "Illegal equipment"
+
+#: demo.py:109
+msgid "请上传驱动文件"
+msgstr "Please upload the driver file"
+
+#: demo.py:110
+msgid "请输入正确的申请理由"
+msgstr "Please enter the correct reasons for application"
+
+#: demo.py:111
+msgid "尚未上传excel文件"
+msgstr "Excel file not yet uploaded"
+
+#: demo.py:112
+msgid "请提供必须的tree_id和father_id和name参数"
+msgstr "Please provide the required tree_id and father_id and name parameters"
+
+#: demo.py:113
+#, python-format
+msgid "更新iot_user表角色异常，user_id为:[%s]"
+msgstr "Update iot_user table role exception, user_id :[%s]"
+
+#: demo.py:114
+#, python-format
+msgid "输入的时间超过[%d]天范围"
+msgstr "Input time exceeding [%d] day range"
+
+#: demo.py:115
+msgid "请输入正确的tree_id或者tree_type和node_id"
+msgstr "Please enter the correct tree_id or tree_type and node_id."
+
+#: demo.py:116
+msgid "已有批量注册任务正在执行"
+msgstr "Batch registration task in progress"
+
+#: demo.py:117
+msgid "重置树异常"
+msgstr "Reset tree exception"
+
+#: demo.py:118
+msgid "没有查出的数据库信息"
+msgstr "No database information found"
+
+#: demo.py:119
+msgid "请输入节点ID"
+msgstr "Please enter the node ID"
+
+#: demo.py:120
+msgid "请输入正确的节点id或者tree_id或者tree_type"
+msgstr "Please enter the correct node id or tree_id or tree_type"
+
+#: demo.py:121
+msgid "请传入参数"
+msgstr "Please pass in parameters"
+
+#: demo.py:122
+msgid "该设备模板模型名称已重复"
+msgstr "The device template model name has been repeated"
+
+#: demo.py:123
+msgid "调用内部API超时"
+msgstr "Call internal API timeout"
+
+#: demo.py:124
+msgid "元数据json key格式错误,字母开头,长度<=10"
+msgstr "Metadata json key format error, beginning of letter, length <=10"
+
+#: demo.py:125
+msgid "要绑定的新的父节点是该节点现在的父节点，无需变更"
+msgstr "The new parent node to bind to is the current parent node of the node, without any changes."
+
+#: demo.py:126
+msgid "请检查参数完整性"
+msgstr "Please check parameter integrity"
+
+#: demo.py:127
+msgid "数据格式的key不能重复"
+msgstr "The key of the data format cannot be repeated"
+
+#: demo.py:128
+msgid "仅超级管理员可审核用户权限申请"
+msgstr "Only super administrator can review user permission applications"
+
+#: demo.py:129
+msgid "该设备模板模型不存在"
+msgstr "The device template model does not exist"
+
+#: demo.py:130
+msgid "身份验证失败"
+msgstr "Authentication failed"
+
+#: demo.py:131
+msgid "设备类型下已关联设备，无法删除"
+msgstr "Device associated with device type, cannot be deleted"
+
+#: demo.py:132
+msgid "注册驱动失败"
+msgstr "Registration driver failed"
+
+#: demo.py:133
+msgid "参数错误"
+msgstr "Parameter error"
+
+#: demo.py:134
+msgid "仅超级管理员可访问用户列表"
+msgstr "User list accessible only by super administrator"
+
+#: demo.py:135
+msgid "请提供正确的节点的新名字或者提供树名字"
+msgstr "Please provide a new name for the correct node or provide a tree name."
+
+#: demo.py:136
+msgid "没有找到租户对应数据库"
+msgstr "No database for tenants found"
+
+#: demo.py:137
+msgid "请输入正确的tree_id或者tree_type参数"
+msgstr "Please enter the correct tree_id or tree_type parameter."
+
+#: demo.py:138
+msgid "不支持此档案格式"
+msgstr "This file format is not supported"
+
+#: demo.py:139
+msgid "保存树结构异常，请稍后重试"
+msgstr "Save tree structure exception, please try again later"

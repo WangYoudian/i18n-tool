@@ -1,0 +1,14 @@
+1.Windows安装gettext模块的方法
+pip install python-gettext
+（和Linux下稍有不同，但用法相同）
+
+2.使用xgettext工具生成的po文件需要手动修改CHARSET为指定字符集（通常为UTF-8）
+xgettext -o demo.po demo.py --from-code utf-8
+
+3.t = gettext.translation('tes', 'locale', languages=["zh_CN"])
+使用locale下的zh_CN语言，并在LC_MESSAGES文件夹下搜索tes.mo文件
+该mo文件来自po文件，需要借助msgfmt工具生成
+msgfmt -o demo.mo demo.po
+
+其中xgettext的使用有时又被成为makemessages
+msgfmt的使用被称为compilemessages

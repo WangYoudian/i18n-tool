@@ -1,0 +1,9 @@
+说明：
+resource下存放基于发现规则的句子txt文件
+以及存放后续生成的：资源py文件，对应的po、mo文件
+——po、mo文件存放目录为languages/{language}/LC_MESSAGES
+
+举例：
+对于一个Django项目而言，若采用的Ajax(不是模板引擎的方式)和前端进行交互，
+则在Response_Template处进行解析，并对待“转换”句子统一加上'_'标签
+
